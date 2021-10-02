@@ -1,0 +1,80 @@
+header{
+    height: 15vh;
+}
+
+.claseNavegacion #animarLogo{
+    animation: bounce;
+    animation-duration: 2s;
+    .imagenLogo{
+        img {
+            max-width: 100%;
+            max-height: 100px;
+        }
+    } 
+}
+
+body .claseNavegacion .claseMenu{
+    font-size: 16%;
+    width: 60%;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    justify-content: flex-end;
+    align-items: center;
+    & > li{
+        display: inline-block;
+    }
+        .submenu{
+            display: none;
+        }
+}
+
+nav .claseNavegador ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style-type: none;  
+    background-color: rgb(37, 37, 37);
+    font-size: 0;
+    li a:hover {
+        background-color: black;
+        color: white;
+    }
+} 
+
+ nav ul ul{
+    position: absolute;
+    display: none;
+    li{
+        display: block;
+    }
+}
+
+nav ul li:hover ul {
+    display: block;
+} 
+ul {
+    list-style-type: none;  
+    background-color: rgb(37, 37, 37);
+    font-size: 0;
+} 
+
+li {
+    display: inline-block; 
+    position:relative;
+    font-size: 14px;
+    a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none; /*Saco las lineas del hiperlink*/
+        letter-spacing: 1px;
+        margin-top: 5px;
+    }
+    a:hover {
+        background-color: gray;
+    } 
+}

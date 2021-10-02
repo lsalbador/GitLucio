@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+  <!--Definiciones del Header-->
+  <title>Contacto con Instituto Tiempos Modernos</title>    
+  <meta charset="UTF-8">
+  <meta name="title" content="Instituto Tiempos Modernos">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Instituto Tiempos Modernos es un instituto de educación con 30 años de trayectoria en el mercado. Reconocido por su calidad y trayectoria.">
+  <meta name="keywords" content ="EDUCACION, INSTITUTO, UNIVERSIDAD, CURSOS, CARRERAS, TIEMPOS, MODERNOS">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="shortcut icon" href="../images/favicon.ico">
+  <link rel="stylesheet"  href="../css/animate.css"/>
+</head>
+<!--Comienzo de body-->
+<body>
+  <!-- Comiendo del header-->
+  <header> 
+    <!--Comienzo de nav-->
+    <nav class="claseNavegacion"> 
+      <ul class="claseMenu">
+        <picture class ="imagenLogo">
+          <a href="../index.html" ><img src="../images/logo.svg" alt="Logo de Tiempos Modernos"> </a>  
+        </picture>
+        <div class="claseMenu" align="right">
+            <li>
+              <a href="../index.html" class="deco-none">Inicio</a>        
+            </li>
+            <li>
+              <a href="" class="deco-none">Historia</a>
+              <ul >
+                <li><a href="../pages/nosotros.html" class="deco-none">Nosotros</a></li>
+                <li><a href="../pages/sedes.html" class="deco-none">Sedes</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="../pages/cursos.html" class="deco-none">Cursos</a>
+            </li>
+            <li>
+              <a href="../pages/contacto.html" class="deco-none">Contáctenos</a>
+            </li>
+            <li>
+              <a href="../pages/carreras.html" class="deco-none">Carreras</a>
+            </li> 
+        </div>
+      </ul>
+    </nav>
+    <!-- Fin del nav-->
+  </header>  
+    <!-- Fin del header--> 
+<main class="container-fluid">
+  <h1 align ="center">Formulario de contacto:</h1>
+  <form class="formContacto"> 
+    <div class="formContacto__form-group"> <!-- Nombre Completo -->
+        <label for="nombreCompleto" class="control-label">Nombre Completo</label>
+        <input type="text" class="form-control" id="nombreCompleto" name="full_name" placeholder="Nombre">
+    </div>    
+
+    <div class="formContacto__form-group"> <!-- Dirección -->
+        <label for="calle_1" class="control-label">Dirección</label>
+        <input type="text" class="form-control" id="calle_1" name="calle1" placeholder="Calle 1">
+    </div>                    
+                            
+    <div class="formContacto__form-group"> <!-- Piso / Depto -->
+        <label for="piso-depto" class="control-label">Piso / Depto</label>
+        <input type="text" class="form-control" id="piso-depto" name="piso-depto" placeholder="Piso / Departamento">
+    </div>    
+
+    <div class="formContacto__form-group"> <!-- Ciudad-->
+        <label for="ciudad_id" class="control-label">Ciudad</label>
+        <input type="text" class="form-control" id="ciudad_id" name="Ciudad" placeholder="Ciudad">
+    </div>   
+    <div class="formContacto__form-group"> <!-- Email-->
+      <label for="email" class="control-label">Email</label>
+      <input type="email" class="form-control" id="email" name="Email" placeholder="Email">
+  </div>                                    
+    <div class ="formContacto__form-group">
+      <label>¿Cómo nos conociste?</label> 
+      <input name="mediodigital" type="checkbox" />Medio digital
+      <input name="radio" type="checkbox" />Radio
+      <input name="buscador" type="checkbox" />Buscador
+    </div>                       
+    <div class="formContacto__form-group"> <!-- País -->
+        <label for="pais" class="control-label">País</label>
+        <select class="form-control" id="pais">
+            <option value="AL">Argentina</option>
+            <option value="AK">Alaska</option>
+            <option value="AZ">Arizona</option>
+            <option value="AR">Arkansas</option>
+            <option value="CA">California</option>
+            <option value="CO">Colorado</option>
+            <option value="CT">Connecticut</option>
+            <option value="DE">Delaware</option>
+            <option value="DC">District Of Columbia</option>
+            <option value="FL">Florida</option>
+            <option value="GA">Georgia</option>
+            <option value="HI">Hawaii</option>
+            <option value="ID">Idaho</option>
+            <option value="IL">Illinois</option>
+            <option value="IN">Indiana</option>
+            <option value="IA">Iowa</option>
+            <option value="KS">Kansas</option>
+            <option value="KY">Kentucky</option>
+            <option value="LA">Louisiana</option>
+            <option value="ME">Maine</option>
+            <option value="MD">Maryland</option>
+            <option value="MA">Massachusetts</option>
+            <option value="MI">Michigan</option>
+            <option value="MN">Minnesota</option>
+            <option value="MS">Mississippi</option>
+            <option value="MO">Missouri</option>
+            <option value="MT">Montana</option>
+            <option value="NE">Nebraska</option>
+            <option value="NV">Nevada</option>
+            <option value="NH">New Hampshire</option>
+            <option value="NJ">New Jersey</option>
+            <option value="NM">New Mexico</option>
+            <option value="NY">New York</option>
+            <option value="NC">North Carolina</option>
+            <option value="ND">North Dakota</option>
+            <option value="OH">Ohio</option>
+            <option value="OK">Oklahoma</option>
+            <option value="OR">Oregon</option>
+            <option value="PA">Pennsylvania</option>
+            <option value="RI">Rhode Island</option>
+            <option value="SC">South Carolina</option>
+            <option value="SD">South Dakota</option>
+            <option value="TN">Tennessee</option>
+            <option value="TX">Texas</option>
+            <option value="UT">Utah</option>
+            <option value="VT">Vermont</option>
+            <option value="VA">Virginia</option>
+            <option value="WA">Washington</option>
+            <option value="WV">West Virginia</option>
+            <option value="WI">Wisconsin</option>
+            <option value="WY">Wyoming</option>
+        </select>                    
+    </div>
+    <div class="formContacto__form-group"> <!--  Código postal -->
+        <label for="codigo_postal" class="control-label">Código postal</label>
+        <input type="text" class="form-control" id="codigo_postal" name="zip" placeholder="Código Postal">
+    </div>        
+    
+    <div class="formContacto__form-group"> <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="reset" class="btn btn-primary" value="Reset"/>Reestablecer</button>
+    </div>     
+    
+</form>
+</main>
+
+ <!-- Comienzo footer-->
+ <footer >
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <span><img class="logo" src="../images/logo.svg" alt="Logo de Tiempos Modernos"></span>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="address">
+          <span>Contacto</span>       
+          <li> 
+             <a href="#">Teléfono</a>  
+             <p>0112541242</p>          
+          </li>
+          <li>
+             <a href="#">Dirección</a>
+             <p>Morteo 1244</p>
+          </li> 
+          <li>
+             <a href="#">Email</a>
+             <p>tm@hotmail.com</p>
+          </li> 
+         </ul>
+      </div>
+      <div class="container-fluid search-text col-md-4 col-sm-6 col-xs-12"> 
+        <div class="container"></div>
+          <div class="row text-center">
+            <div class="form">
+                <h5>NEWSLETTER</h5>
+                 <form id="search-form" class="form-search form-horizontal">
+                     <input type="text" class="input-search" placeholder="Email">
+                     <button type="submit" class="btn-search">Enviar</button>
+                 </form>
+             </div>
+           </div>         
+        </div>     
+     </div>
+    </div>
+  </div>
+</footer>
+<!-- Fin footer-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+<!--Fin de body-->
+</html>

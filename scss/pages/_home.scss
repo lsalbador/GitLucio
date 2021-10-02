@@ -1,0 +1,35 @@
+/*Aplicación de flex en index.html*/
+
+.claseMain{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .imagenIndex{
+        margin:0;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        image-rendering: auto;
+    }
+}
+
+$gapvalor: 4rem;
+.container .sectionOne {
+    display: flex;
+    gap: $gapvalor / 2;
+}
+a.deco-none {
+    color:white !important;
+    text-decoration:none;
+}
+
+.bg-menu:hover {
+    background-color:gray;
+    color:white;
+}
+
+.clickable {
+    cursor:pointer; 
+}
+/*Fin de flex en index.html*/

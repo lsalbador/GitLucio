@@ -1,0 +1,59 @@
+/*Definiciones de los ingresos de datos en CONTACTO.HTML*/
+label {
+    display:block;
+    letter-spacing:1px;
+}
+
+$widthformulario: 100px;
+$colorformulario: #666666;
+.formulario {
+    display:block;
+    width:$widthformulario*5;
+    color:$colorformulario;
+    font-family:Arial;
+}
+
+$widthform: 100px;
+form {
+    margin:0 auto;
+    width:$widthform * 4;
+}
+ 
+$inputcolor: #000000;
+
+input{
+    background:#dbd2d2;
+    border:2px solid $inputcolor;
+    padding:10px;
+    font-size:10px;
+    color:$inputcolor;
+}
+
+$widtharea: 125px;
+$heightarea: 15px;
+$textareacolor: #dbd2d2;
+$paddingarea: 5px;
+$fontsizearea: 5px;
+ textarea {
+    width:$widtharea*2;
+    height:$heightarea*2;
+    background:$textareacolor;
+    border:2px solid #f6f6f6;
+    padding: $paddingarea*2;
+    font-size:$fontsizearea *2;
+    color:#ffffff;
+}
+
+.formContacto{
+    display:grid;
+}
+
+/*Fin de las definiciones de los ingresos de datos en CONTACTO.HTML*/
+
+/*Aplicación de animación en Contacto.html*/
+
+.claseContacto{
+    animation:fadeIn;
+    animation-duration: 2s;
+}
+/*Fin de animación en Contacto.html*/

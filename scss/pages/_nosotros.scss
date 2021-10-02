@@ -1,0 +1,27 @@
+/*Definición de estilos en Nosotros.html*/
+.claseMainNosotros{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    
+}
+
+$flexbasis: 300px;
+.claseMainNosotros__sectionNosotros {
+    width: 45%; 
+    flex-basis: $flexbasis * 2; 
+    order: initial;
+    align-content: center;
+}
+.claseMainNosotros__sectionNosotros2{
+    width: 45%;
+    flex-basis: $flexbasis * 2;
+    order: inherit;
+    align-content: center;
+}
+/*Fin definición de estilos en Nosotros.html*/
+/*Aplicación de Transform en nosotros.html*/
+
+#videoScale:hover{
+    transform: scale(1.1,1.1);
+}

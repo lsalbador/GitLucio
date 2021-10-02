@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- Comiendo del head--> 
+  <head> 
+    <!--Definiciones del Header-->
+    <title>Instituto Tiempos Modernos</title>     
+    <meta charset="UTF-8">
+    <meta name="title" content="Instituto Tiempos Modernos">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content ="EDUCACION, INSTITUTO, UNIVERSIDAD, CURSOS, CARRERAS, TIEMPOS, MODERNOS">
+    <meta name="description" content="Instituto CoderHouse">  
+    <meta name="viewport" content="width-device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../root/css/index.css">
+    <link rel="shortcut icon" href="../root/images/favicon.ico" />
+    <link rel="stylesheet"  href="../root/css/animate.css"/>
+  </head>  
+   <!-- Fin del head-->
+
+   <!-- Comiendo del body-->
+   <body>   
+    <!-- Comiendo del header-->
+    <header> 
+      <!--Comienzo de nav-->
+      <nav class="claseNavegacion"> 
+        <ul class="claseMenu">
+          <picture id= "animarLogo" class ="imagenLogo">
+            <a href="../root/index.html" ><img src="../root/images/logo.svg" alt="Logo de Tiempos Modernos"> </a>  
+           </picture>
+           <div class="claseMenu" align="right">
+              <li class="bg-menu clickable">
+                <a href="../root/index.html" class="deco-none">Inicio</a>        
+              </li>
+              <li class="bg-menu clickable">
+                <a href="../root/pages/nosotros.html" class="deco-none">Historia</a>
+                <ul >
+                  <li class="bg-menu clickable"><a href="../root/pages/nosotros.html" class="deco-none">Nosotros</a></li>
+                  <li class="bg-menu clickable"><a href="../root/pages/sedes.html" class="deco-none">Sedes</a></li>
+                </ul>
+              </li>
+              <li class="bg-menu clickable">
+                <a href="../root/pages/cursos.html" class="deco-none">Cursos</a>
+              </li>
+              <li class="bg-menu clickable">
+                <a href="../root/pages/contacto.html" class="deco-none">Contáctenos</a>
+              </li>
+              <li class="bg-menu clickable">
+                <a href="../root/pages/carreras.html" class="deco-none">Carreras</a>
+              </li> 
+          </div>
+        </ul>
+      </nav>
+      <!-- Fin del nav-->
+     </header>  
+      <!-- Fin del header--> 
+    <main class="claseMain">
+        <section class="row container-fluid" >   
+           <h2 align ="center">Bienvenidos a Instituto Tiempos Modernos</h2>
+            <p>Fundada en 1995, cuenta con acreditaciones de organizaciones Nacionales e Internacionales.
+              Llevaras a cabo proyectos desafiantes que pondrán tus conocimientos al máximo.
+            </p>
+            <article class="col-md-6">
+              <img class ="imagenIndex img-rounded" src="../root/images/imagenindex.jpg" alt="Equipo Educativo">
+              <p>
+                La Universidad recreó un Proyecto Académico ideal y único en su género en nuestro país. 
+              </p>
+            </article>   
+            <article class="col-md-6">
+              <img class ="imagenIndex img-rounded" src="../root/images/imagenindex2.jpg" alt="Equipo Educativo2">
+              <p>Cuenta con acreditaciones de organizaciones Nacionales e Internacionales no gubernamentales de educación entre ellas: ADEEPRA, FAELA y COMED.</p>
+            </article>   
+          </section> 
+    </main>
+    <!-- Comienzo footer-->
+    <footer >
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <span><img class="logo" src="../root/images/logo.svg" alt="Logo de Tiempos Modernos"></span>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="address">
+              <span>Contacto</span>       
+              <li> 
+                 <a href="#">Teléfono</a>  
+                 <p>0112541242</p>          
+              </li>
+              <li>
+                 <a href="#">Dirección</a>
+                 <p>Morteo 1244</p>
+              </li> 
+              <li>
+                 <a href="#">Email</a>
+                 <p>tm@hotmail.com</p>
+              </li> 
+             </ul>
+          </div>
+          <div class="container-fluid search-text col-md-4 col-sm-6 col-xs-12"> 
+            <div class="container"></div>
+              <div class="row text-center">
+                <div class="form">
+                    <h5>NEWSLETTER</h5>
+                     <form id="search-form" class="form-search form-horizontal">
+                         <input type="text" class="input-search" placeholder="Email">
+                         <button type="submit" class="btn-search">Enviar</button>
+                     </form>
+                 </div>
+               </div>         
+            </div>     
+         </div>
+        </div>
+      </div>
+      <div style="color:black" class="container-fluid"> 
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dialogo1">Fecha de inscripción</button>
+    
+        <div class="modal fade" id="dialogo1">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <!-- cabecera del diálogo -->
+              <div class="modal-header">
+                <h4 class="modal-title">Fechas</h4>
+                <button type="button" class="close" data-dismiss="modal">X</button>
+              </div>
+              <!-- cuerpo del diálogo -->
+              <div class="modal-body">
+                Se podrá inscribir a los cursos / carreras luego del 13/10/2021 hasta el 31/10/2021.
+              </div>
+              <!-- pie del diálogo -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </footer>
+    <!-- Fin footer-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body> 
+   <!-- Fin del body-->
+</html>

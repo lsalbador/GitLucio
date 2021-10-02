@@ -1,0 +1,42 @@
+/*Aplicación de GRID en CURSOS.HTML*/
+$backgroundp: #e4e4e4;
+$backgrounda: #212121;
+$colorborder: gray;
+$paddingpred: 10px;
+
+.container {
+    width: 100%;
+    box-shadow: 7px 14px 37px rgba(0, 0, 0, .5);
+    align-content: center;
+    section {
+        p {
+            overflow: hidden;
+            max-height: 0;
+            text-align: justify;
+            font-family: "Courier New", Courier, monospace;
+            background: $backgroundp;
+            transition: all 0.2s ease-in;
+          }
+        a {
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        padding: $paddingpred;
+        font-family: "Courier New", Courier, monospace;
+        background-color: $backgrounda;
+        border-bottom: 2px solid $colorborder;
+        color: white;
+        }
+    }
+       
+  }
+  
+  $valorpred: 10px;
+.container section:target p {
+    max-height:  $valorpred * 12;
+    padding:  $valorpred;
+  }
+
+
+
+
