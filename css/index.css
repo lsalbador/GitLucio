@@ -39,7 +39,7 @@ header {
   animation-duration: 2s; }
   .claseNavegacion #animarLogo .imagenLogo img {
     max-width: 100%;
-    max-height: 100px; }
+    max-height: 100%; }
 
 body .claseNavegacion .claseMenu {
   font-size: 16%;
@@ -55,47 +55,7 @@ body .claseNavegacion .claseMenu {
   body .claseNavegacion .claseMenu .submenu {
     display: none; }
 
-nav .claseNavegador ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  list-style-type: none;
-  background-color: #252525;
-  font-size: 0; }
-  nav .claseNavegador ul li a:hover {
-    background-color: black;
-    color: white; }
 
-nav ul ul {
-  position: absolute;
-  display: none; }
-  nav ul ul li {
-    display: block; }
-
-nav ul li:hover ul {
-  display: block; }
-
-ul {
-  list-style-type: none;
-  background-color: #252525;
-  font-size: 0; }
-
-li {
-  display: inline-block;
-  position: relative;
-  font-size: 14px; }
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    /*Saco las lineas del hiperlink*/
-    letter-spacing: 1px;
-    margin-top: 5px; }
-  li a:hover {
-    background-color: gray; }
 
 footer {
   margin: 0;
@@ -320,8 +280,8 @@ textarea {
 }
 
 .claseVideo{
-  width:70%;
-  height:50%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .mainIndex{
@@ -475,10 +435,6 @@ a.deco-none {
             max-width: 90%;
             box-shadow: 2px 2px 10px gray;
             border-radius: 10px;
-        }
-        .claseNavegacion .imagenLogo img{
-            height: 100px;
-            width: 100px;
         }
     }
     /* El tamaño por defecto de 200px ya estaría establecido previamente */

@@ -22,33 +22,39 @@
     <!-- Comiendo del header-->
     <header> 
       <!--Comienzo de nav-->
-      <nav class="claseNavegacion"> 
-        <ul class="claseMenu">
-          <picture id= "animarLogo" class ="imagenLogo">
-            <a href="index.html" ><img src="images/logo.svg" alt="Logo de Tiempos Modernos"> </a>  
-           </picture>
-           <div class="claseMenu" align="right">
-              <li class="bg-menu clickable">
-                <a href="index.html" class="deco-none">Inicio</a>        
-              </li>
-              <li class="bg-menu clickable">
-                <a href="pages/nosotros.html" class="deco-none">Historia</a>
-                <ul >
-                  <li class="bg-menu clickable"><a href="pages/nosotros.html" class="deco-none">Nosotros</a></li>
-                  <li class="bg-menu clickable"><a href="pages/sedes.html" class="deco-none">Sedes</a></li>
-                </ul>
-              </li>
-              <li class="bg-menu clickable">
-                <a href="pages/cursos.html" class="deco-none">Cursos</a>
-              </li>
-              <li class="bg-menu clickable">
-                <a href="pages/contacto.html" class="deco-none">Contáctenos</a>
-              </li>
-              <li class="bg-menu clickable">
-                <a href="pages/carreras.html" class="deco-none">Carreras</a>
-              </li> 
-          </div>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="index.html" ><img src="images/logo.svg" alt="Logo de Tiempos Modernos"> </a>  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Historia
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="pages/nosotros.html">Nosotros</a>
+                <a class="dropdown-item" href="pages/sedes.html">Sedes</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/carreras.html">Carreras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/cursos.html">Cursos</a>
+            </li>
+          </ul>
+        </div>
       </nav>
       <!-- Fin del nav-->
      </header>  

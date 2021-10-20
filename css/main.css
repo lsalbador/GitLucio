@@ -155,27 +155,6 @@ ul li a:hover {
     justify-content: center;
 }
 
-/* .claseMain aside{
-    height: 70%;
-    width: 30%;
-    justify-content: right;
-    background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca);
-    border:solid;
-    flex-basis: 300px;
-    margin-top: 20px;
-}
-
-.claseMain section{
-    width: 60%;
-}
-.claseMain article{
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    flex-basis: auto;
-    flex-grow: 1;
-} */
-
 .container .sectionOne {
     display: flex;
     gap: 2rem;
