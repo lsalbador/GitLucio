@@ -29,7 +29,9 @@ section {
 
 main {
   margin: 1rem; }
-
+.barraNav{
+  z-index: 500;
+}
 /* PARTIALS */
 header {
   height: 15vh; }
