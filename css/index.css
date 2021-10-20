@@ -55,13 +55,11 @@ body .claseNavegacion .claseMenu {
   body .claseNavegacion .claseMenu .submenu {
     display: none; }
 
-
-
 footer {
   margin: 0;
   padding: 0;
   margin-bottom: 0;
-  background-color: #252525;
+  background-color: #343a40;
   color: white;
   text-align: center;
   padding: 10px; 
@@ -120,7 +118,9 @@ footer {
 .address li,
 .menu li {
   margin: 20px 0px;
-  list-style: none; }
+  list-style: none;
+  display: flex;
+  flex-direction: column;}
 
 .address li a:hover,
 .menu li a:hover {
